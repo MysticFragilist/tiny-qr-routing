@@ -11,5 +11,6 @@ else if(isIos) {
   window.location = appStore
 }
 else {
+  console.log('None found, defaulting to play store.')
   window.location = playStore
 }
